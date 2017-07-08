@@ -1,0 +1,80 @@
+@charset "UTF-8";
+
+@import "./base/variables";
+@import "./base/reset";
+
+@import "./components/common/header";
+@import "./components/common/menu";
+
+html,
+body {
+  height: 100%;
+}
+
+.wrapper {
+  width: 100%;
+  height: 100%;
+  transition: all .6s;
+  border-bottom: 1px solid #000000;
+}
+
+.hoge {
+  background-color: aquamarine;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  background-position: center center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.hoge2 {
+  background-color: indianred;
+}
+
+.hoge ul {
+  width: 50%;
+  text-align: center;
+}
+
+.hoge li {
+  display: block;
+}
+
+.footer {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  height: auto;
+  min-height: 3rem;
+  max-height: 7rem;
+  background-color: cadetblue;
+  transition: all .3s;
+  -webkit-transform: translate3d(0, -100%, 0) perspective(0);
+  transform: translate3d(0, -100%, 0);
+}
+
+.footer_act {
+  position: fixed;
+  -webkit-transform: translate3d(0, 0, 0);
+  transform: translate3d(0, 0, 0);
+}
+
+.footer2 {
+  width: 100%;
+  height: 0;
+  background-color: coral;
+}
+
+.imgCrip {
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+}
+
+.H3 li {
+  color: #F00;
+}

@@ -1,0 +1,1 @@
+{"version":3,"sources":["main.scss"],"names":[],"mappings":"AAEA,E,CACE,Y,CACA,e,CACA,wB,CAAA,oB,CAAA,gB,CAEF,C,CACE,S","file":"main.min.css","sourcesContent":["@charset 'utf-8';\n\nh1 {\n  color: tomato;\n  font-size: 100px;\n  flex-wrap: nowrap;\n}\np {\n  color: red;\n}\n"]}
