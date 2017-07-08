@@ -1,0 +1,19 @@
+.DS_Store
+.ansible
+.editorconfig
+.vagrant
+ansible.cfg
+
+# wordpress
+/wordpress/*
+!/wordpress/wp-content
+
+# wp-content
+/wordpress/wp-content/*
+!/wordpress/wp-content/plugins
+!/wordpress/wp-content/themes
+!/wordpress/wp-content/uploads
+
+/wordpress/wp-content/themes/twentyfifteen
+/wordpress/wp-content/themes/twentysixteen
+/wordpress/wp-content/themes/twentyseventeen
